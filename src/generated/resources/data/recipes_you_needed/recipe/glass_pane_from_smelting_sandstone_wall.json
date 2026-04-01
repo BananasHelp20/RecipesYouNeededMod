@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "glass_pane",
+  "ingredient": {
+    "item": "minecraft:sandstone_wall"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:glass_pane"
+  }
+}

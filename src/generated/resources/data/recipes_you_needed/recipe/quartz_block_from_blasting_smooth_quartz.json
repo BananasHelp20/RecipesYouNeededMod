@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 2.0,
+  "group": "quartz_block",
+  "ingredient": {
+    "item": "minecraft:smooth_quartz"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:quartz_block"
+  }
+}

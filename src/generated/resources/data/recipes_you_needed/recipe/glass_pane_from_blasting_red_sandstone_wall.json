@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 1.5,
+  "group": "glass_pane",
+  "ingredient": {
+    "item": "minecraft:red_sandstone_wall"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:glass_pane"
+  }
+}

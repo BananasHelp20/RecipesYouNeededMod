@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 10.0,
+  "group": "diamond",
+  "ingredient": {
+    "item": "minecraft:diamond_pickaxe"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:diamond"
+  }
+}
