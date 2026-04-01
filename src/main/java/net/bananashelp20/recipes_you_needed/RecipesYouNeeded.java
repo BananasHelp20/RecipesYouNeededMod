@@ -1,6 +1,5 @@
 package net.bananashelp20.recipes_you_needed;
 
-import net.bananashelp20.recipes_you_needed.recipe.ModRecipes;
 import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import org.slf4j.Logger;
 
@@ -36,7 +35,6 @@ public class RecipesYouNeeded {
         // Note that this is necessary if and only if we want *this* class (RecipesYouNeeded) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
-        ModRecipes.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

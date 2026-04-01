@@ -1,4 +1,4 @@
-// 1.21.1	2026-04-01T22:11:50.0689778	Recipes
+// 1.21.1	2026-04-01T23:13:41.8161213	Recipes
 aed0bf099de4a005bfa7d9995a53eb033b5ac664 data/minecraft/advancement/recipes/misc/acacia_planks.json
 b933b7719fea09cd46be4a1494ac755796ca4535 data/minecraft/advancement/recipes/misc/acacia_stairs.json
 bb78d3e853e12692df86146e6fc6e39e86f6bec6 data/minecraft/advancement/recipes/misc/andesite.json
@@ -137,7 +137,7 @@ ba802e720f390d36292a25b5a8fc4ff8708236aa data/minecraft/recipe/dark_prismarine.j
 94a3abffb9891fbd25ac7e005510ef6f0e854bd5 data/minecraft/recipe/deepslate_bricks.json
 9c95b2a08b0a65d29073aac1bd8ce758b69f4d2c data/minecraft/recipe/deepslate_tiles.json
 4b1dd0c3776921c0a30b032cacf8528368327db6 data/minecraft/recipe/diorite.json
-5bc091f9012b03c3a3ffb6554ec2f0691f5dae94 data/minecraft/recipe/dispenser.json
+6f551c90fe59d3f1c3815126b7a9b0e0fd435dc9 data/minecraft/recipe/dispenser.json
 36f6ae85fc017f604301db70932c8cf1d8fd77d6 data/minecraft/recipe/end_stone_bricks.json
 5639ca738ea44d5ae9c50f9df2049f8763cb470c data/minecraft/recipe/exposed_cut_copper.json
 2330f1551ef5803f176f697d7858f8a60ca505fd data/minecraft/recipe/glowstone_dust.json

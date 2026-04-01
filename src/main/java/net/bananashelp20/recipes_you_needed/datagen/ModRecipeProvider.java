@@ -558,6 +558,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("AAA")
                 .define('A', Items.ACACIA_PLANKS)
                 .unlockedBy(getHasName(Items.ACACIA_PLANKS), has(Items.ACACIA_PLANKS)).save(output);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Blocks.DISPENSER)
+                .pattern("AB")
+                .define('A', Blocks.DROPPER)
+                .define('B', Items.BOW)
+                .unlockedBy(getHasName(Blocks.DROPPER), has(Blocks.DROPPER)).save(output);
     }
 
     private static void shapelessRecipes(RecipeOutput output) {
@@ -568,11 +574,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.GLOWSTONE_DUST, 4)
                 .requires(Items.GLOWSTONE)
                 .unlockedBy(getHasName(Items.GLOWSTONE), has(Items.GLOWSTONE)).save(output);
-
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.DISPENSER, 1)
-                .requires(Items.DROPPER)
-                .requires(Items.BOW)
-                .unlockedBy(getHasName(Items.DROPPER), has(Items.DROPPER)).save(output);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.BLACK_DYE, 4)
                 .requires(Items.COAL)
