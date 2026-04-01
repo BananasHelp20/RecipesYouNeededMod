@@ -1,4 +1,4 @@
-// 1.21.1	2026-04-01T23:13:41.8161213	Recipes
+// 1.21.1	2026-04-02T00:47:15.0250439	Recipes
 aed0bf099de4a005bfa7d9995a53eb033b5ac664 data/minecraft/advancement/recipes/misc/acacia_planks.json
 b933b7719fea09cd46be4a1494ac755796ca4535 data/minecraft/advancement/recipes/misc/acacia_stairs.json
 bb78d3e853e12692df86146e6fc6e39e86f6bec6 data/minecraft/advancement/recipes/misc/andesite.json
@@ -16,6 +16,7 @@ e38fdf0bec425fb5d863a66dd80a0eac1f58a660 data/minecraft/advancement/recipes/misc
 02b02c173a626dea818e0bf71cd110a8093797b9 data/minecraft/advancement/recipes/misc/blackstone.json
 1ff0bb8f20c3c4437c2f8ef5b47d90e90478290c data/minecraft/advancement/recipes/misc/black_dye_from_charcoal.json
 196fd7b975c9873a4f36bf1aa60397c9f25318f1 data/minecraft/advancement/recipes/misc/black_dye_from_coal.json
+30878ffde67537b3209234294d4d400ec09239a8 data/minecraft/advancement/recipes/misc/blue_ice_from_packed_ice_.json
 1c84a58e838f3ccc7363e37753f7a7949420aaa5 data/minecraft/advancement/recipes/misc/bricks.json
 ca4153709480fc1a7ffc01af926440da6bc4904e data/minecraft/advancement/recipes/misc/cherry_planks.json
 7f3047701812be6bfc72e8b08de53bdd391f384d data/minecraft/advancement/recipes/misc/cobbled_deepslate.json
@@ -51,6 +52,7 @@ c841ef38d89b9b97f8e2fef5f0019811cd5f8c78 data/minecraft/advancement/recipes/misc
 4253f7d099f4b4fc71be0eae15b020eacd2cf340 data/minecraft/advancement/recipes/misc/oak_stairs.json
 3fb3dbede88351abd379c0493d2d25079893a466 data/minecraft/advancement/recipes/misc/oxidized_cut_copper.json
 c4548b37dcd1f3d0b16211ad5e0137fd215002c2 data/minecraft/advancement/recipes/misc/packed_ice.json
+50794016a285ac67a03c91c624e2f56e1fca2ad8 data/minecraft/advancement/recipes/misc/packed_ice_from_ice_.json
 362ddd7339042968f0aa6eb404b75ce350562796 data/minecraft/advancement/recipes/misc/pointed_dripstone.json
 9e5e8c031c31a9c188c846b360b799f26ffcbc70 data/minecraft/advancement/recipes/misc/polished_andesite.json
 fbb9f33da01157444aef3b4685c29c8dd1b9a417 data/minecraft/advancement/recipes/misc/polished_blackstone.json
@@ -64,6 +66,7 @@ c96c48738d3d176175599a48496d58238405747e data/minecraft/advancement/recipes/misc
 50445299a35e0fd42c473388e3e977c10cc57d41 data/minecraft/advancement/recipes/misc/purpur_block.json
 e6cd2aefdc483cb7e8e96261a7ed52f69c3cf031 data/minecraft/advancement/recipes/misc/quartz.json
 3809fbc22b803b596e6f708d1c7d89a03baa7364 data/minecraft/advancement/recipes/misc/quartz_block.json
+178a40297d704e7904dbbee711e6986cbf768c8f data/minecraft/advancement/recipes/misc/quartz_block_from_quartz_.json
 fe8c1091fcc655bd1c89b4cf6309d6a2b3f25c80 data/minecraft/advancement/recipes/misc/red_nether_bricks.json
 c0f93349ca413dab5caf8f2481b3639b91dc79d4 data/minecraft/advancement/recipes/misc/red_sandstone.json
 256e2b6e81d2615582e2917aeeb164314815aada data/minecraft/advancement/recipes/misc/saddle.json
@@ -122,6 +125,7 @@ b09c3b43ef403d3ed41bc8260228f14c74ef57ca data/minecraft/recipe/birch_stairs.json
 ae1d42528438c679bfee01b7388736e4bcdc508b data/minecraft/recipe/blackstone.json
 f16d6c5e9d4877b7744ccfa03f48500c2958f0da data/minecraft/recipe/black_dye_from_charcoal.json
 b65d836761af88e372e62f03c8a75513fabe46d1 data/minecraft/recipe/black_dye_from_coal.json
+dedd017c1e885c026924a3f0857ddc07f7e3a0b0 data/minecraft/recipe/blue_ice_from_packed_ice_.json
 2e20412538c2135f61b607e90874ee133774c84a data/minecraft/recipe/bricks.json
 6863b80d0728f9d9fc200a0bbbda7c54bc845215 data/minecraft/recipe/cherry_planks.json
 26908f3df3b4322fe028563679dec4ac6154fd06 data/minecraft/recipe/cobbled_deepslate.json
@@ -157,6 +161,7 @@ ca8b20c69d5951b110d534f3dc4969c5f2e8f8fb data/minecraft/recipe/oak_planks.json
 5e6ead068b107b91926618cfcc4b793807f49507 data/minecraft/recipe/oak_stairs.json
 802006e4c69a5406c823d389fbfa7a1180034e50 data/minecraft/recipe/oxidized_cut_copper.json
 e50292dc14a80f65b3a553e23289d3a935dc69d9 data/minecraft/recipe/packed_ice.json
+f5aa8d8576b1a56ab53c6ff889865fe5bf66c7f5 data/minecraft/recipe/packed_ice_from_ice_.json
 1f11f28bb77007d3611f2d97c6a3375ce40bf29a data/minecraft/recipe/pointed_dripstone.json
 84e6dccc84a333b77feedf8879b34d37c92e6713 data/minecraft/recipe/polished_andesite.json
 31c3b8e6c6b52219315805a04ea5048f489ea34a data/minecraft/recipe/polished_blackstone.json
@@ -170,6 +175,7 @@ f3e54388c84e43802aaff51d08db5c5da44d74ad data/minecraft/recipe/prismarine_bricks
 7745c360e3d337f853ea3be8e883a1a1f278bace data/minecraft/recipe/purpur_block.json
 2e5e63a0bf89df24cc8f1b95e0247d1835504d0f data/minecraft/recipe/quartz.json
 6a8a0a41796727f367058b9ed84bd822432de3d9 data/minecraft/recipe/quartz_block.json
+ac6a80d49196f50f569c5379fa0c5d2277dff69e data/minecraft/recipe/quartz_block_from_quartz_.json
 79c47544788dd06756ca35ce84de2117187e6f4b data/minecraft/recipe/red_nether_bricks.json
 44ff938334f05a6f3f1c3b003f6ce5d7533ead53 data/minecraft/recipe/red_sandstone.json
 c8c0722dd9f7b7d01593e9d8425133f5cb2879c8 data/minecraft/recipe/saddle.json

@@ -81,6 +81,26 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', Items.DAMAGED_ANVIL)
                 .unlockedBy(getHasName(Items.DAMAGED_ANVIL), has(Items.DAMAGED_ANVIL)).save(output, "anvil_from_damaged");
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.QUARTZ_BLOCK)
+                .pattern("AA")
+                .pattern("AA")
+                .define('A', Items.QUARTZ)
+                .unlockedBy(getHasName(Items.QUARTZ), has(Items.QUARTZ)).save(output, "quartz_block_from_quartz_");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.PACKED_ICE)
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.ICE)
+                .unlockedBy(getHasName(Items.ICE), has(Items.ICE)).save(output, "packed_ice_from_ice_");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.BLUE_ICE)
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.PACKED_ICE)
+                .unlockedBy(getHasName(Items.PACKED_ICE), has(Items.PACKED_ICE)).save(output, "blue_ice_from_packed_ice_");
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.ANVIL)
                 .pattern("AA")
                 .define('A', Items.CHIPPED_ANVIL)
