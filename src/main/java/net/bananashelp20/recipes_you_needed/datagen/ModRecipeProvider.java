@@ -139,6 +139,32 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('C', Items.PAPER)
                 .unlockedBy(getHasName(Items.IRON_NUGGET), has(Items.IRON_NUGGET)).save(output);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.CHAINMAIL_HELMET)
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', Items.CHAIN)
+                .unlockedBy(getHasName(Items.CHAIN), has(Items.CHAIN)).save(output);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.CHAINMAIL_CHESTPLATE)
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.CHAIN)
+                .unlockedBy(getHasName(Items.CHAIN), has(Items.CHAIN)).save(output);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.CHAINMAIL_LEGGINGS)
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', Items.CHAIN)
+                .unlockedBy(getHasName(Items.CHAIN), has(Items.CHAIN)).save(output);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.CHAINMAIL_BOOTS)
+                .pattern("A A")
+                .pattern("A A")
+                .define('A', Items.CHAIN)
+                .unlockedBy(getHasName(Items.CHAIN), has(Items.CHAIN)).save(output);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.SHROOMLIGHT, 4)
                 .pattern("ACA")
                 .pattern("CBC")
