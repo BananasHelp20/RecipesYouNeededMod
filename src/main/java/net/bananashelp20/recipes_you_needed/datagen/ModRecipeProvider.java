@@ -139,6 +139,47 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('C', Items.PAPER)
                 .unlockedBy(getHasName(Items.IRON_NUGGET), has(Items.IRON_NUGGET)).save(output);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.MOSS_BLOCK)
+                .pattern("AA")
+                .pattern("AA")
+                .define('A', Items.MOSS_CARPET)
+                .unlockedBy(getHasName(Items.MOSS_CARPET), has(Items.MOSS_CARPET)).save(output);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.GRASS_BLOCK)
+                .pattern("A")
+                .pattern("B")
+                .define('A', Items.MOSS_CARPET)
+                .define('B', Items.DIRT)
+                .unlockedBy(getHasName(Items.DIRT), has(Items.DIRT)).save(output, "from_moss");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.GRASS_BLOCK)
+                .pattern("A")
+                .pattern("B")
+                .define('A', Items.SHORT_GRASS)
+                .define('B', Items.DIRT)
+                .unlockedBy(getHasName(Items.DIRT), has(Items.DIRT)).save(output, "from_short_grass");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.GRASS_BLOCK)
+                .pattern("A")
+                .pattern("B")
+                .define('A', Items.TALL_GRASS)
+                .define('B', Items.DIRT)
+                .unlockedBy(getHasName(Items.DIRT), has(Items.DIRT)).save(output, "from_tall_grass");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.ROOTED_DIRT)
+                .pattern("B")
+                .pattern("A")
+                .define('A', Items.HANGING_ROOTS)
+                .define('B', Items.DIRT)
+                .unlockedBy(getHasName(Items.DIRT), has(Items.DIRT)).save(output);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.HANGING_ROOTS)
+                .pattern("A")
+                .pattern("B")
+                .define('A', Items.DIRT)
+                .define('B', Items.BONE_MEAL)
+                .unlockedBy(getHasName(Items.DIRT), has(Items.DIRT)).save(output);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.CHAINMAIL_HELMET)
                 .pattern("AAA")
                 .pattern("A A")
@@ -613,6 +654,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     }
 
     private static void shapelessRecipes(RecipeOutput output) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.COARSE_DIRT, 2)
+                .requires(Items.COBBLESTONE)
+                .requires(Items.DIRT)
+                .unlockedBy(getHasName(Items.DIRT), has(Items.DIRT)).save(output);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.NETHER_WART, 9)
                 .requires(Items.NETHER_WART_BLOCK)
                 .unlockedBy(getHasName(Items.NETHER_WART_BLOCK), has(Items.NETHER_WART_BLOCK)).save(output);
