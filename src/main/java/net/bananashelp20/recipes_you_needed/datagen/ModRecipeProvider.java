@@ -654,6 +654,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     }
 
     private static void shapelessRecipes(RecipeOutput output) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.SHORT_GRASS, 1)
+                .requires(Items.WHEAT_SEEDS)
+                .requires(Items.BONE_MEAL)
+                .unlockedBy(getHasName(Items.WHEAT_SEEDS), has(Items.WHEAT_SEEDS)).save(output);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.TALL_GRASS, 1)
+                .requires(Items.WHEAT_SEEDS)
+                .requires(Items.BONE_MEAL, 2)
+                .unlockedBy(getHasName(Items.WHEAT_SEEDS), has(Items.WHEAT_SEEDS)).save(output);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.COARSE_DIRT, 2)
                 .requires(Items.COBBLESTONE)
                 .requires(Items.DIRT)
